@@ -8,5 +8,41 @@
     <link rel="stylesheet" href="./css/nullstyle.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="slider">
+        <input class="slider__input" type="radio" name="slide" id="slide1" checked/>
+        <input class="slider__input" type="radio" name="slide" id="slide2" />
+        <input class="slider__input" type="radio" name="slide" id="slide3" />
+        <input class="slider__input" type="radio" name="slide" id="slide4" />
+
+        <div class="slider__item active">
+          <img class="slider__image" src="./assets/IMG_3987.PNG" alt="mem_1" />
+        </div>
+
+        <div class="slider__item">
+          <img class="slider__image" src="./assets/IMG_3923.PNG" alt="mem_2" />
+        </div>
+
+        <div class="slider__item">
+          <img class="slider__image" src="./assets/IMG_3988.PNG" alt="mem_3" />
+        </div>
+
+        <div class="slider__item">
+          <img class="slider__image" src="./assets/IMG_3989.PNG" alt="mem_4" />
+        </div>
+      </div>
+
+      <div class="slider__bottom">
+        <p class="slider__text">you wanna hear a lie?</p>
+
+        <nav class="nav">
+          <label for="slide1" class="nav__item"></label>
+          <label for="slide2" class="nav__item"></label>
+          <label for="slide3" class="nav__item"></label>
+          <label for="slide4" class="nav__item"></label>
+        </nav>
+      </div>
+    </div>
+  </body>
 </html>
