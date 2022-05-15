@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cssMemSlider</title>
+    <link rel="stylesheet" href="./css/nullstyle.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input
+        id="slide1"
+        class="slider__input"
+        type="radio"
+        name="slide"
+        checked
+      />
+      <input id="slide2" class="slider__input" type="radio" name="slide" />
+      <input id="slide3" class="slider__input" type="radio" name="slide" />
+      <input id="slide4" class="slider__input" type="radio" name="slide" />
+
+      <h1 class="title"><b>CSS Mem Slider</b></h1>
+
+      <div class="inner">
+        <div class="slider">
+          <div class="slider__item">
+            <img
+              class="slider__image"
+              src="./assets/images/mem_1.jpg"
+              alt="mem_1"
+            />
+          </div>
+
+          <div class="slider__item">
+            <img
+              class="slider__image"
+              src="./assets/images/mem_2.jpg"
+              alt="mem_2"
+            />
+          </div>
+
+          <div class="slider__item">
+            <img
+              class="slider__image"
+              src="./assets/images/mem_3.jpg"
+              alt="mem_3"
+            />
+          </div>
+
+          <div class="slider__item">
+            <img
+              class="slider__image"
+              src="./assets/images/mem_4.jpg"
+              alt="mem_4"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="slider__bottom">
+        <div class="inner">
+          <div class="slider__text">
+            <p class="slider__item-text"><b>you wanna hear a lie?</b></p>
+            <p class="slider__item-text"><b>к нам наняли джуниора жесть</b></p>
+            <p class="slider__item-text"><b>my two moods...</b></p>
+            <p class="slider__item-text"><b>pizza?? pizza.</b></p>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <label class="nav__item" for="slide1"
+            ><div class="nav__dot"></div
+          ></label>
+          <label class="nav__item" for="slide2"
+            ><div class="nav__dot"></div
+          ></label>
+          <label class="nav__item" for="slide3"
+            ><div class="nav__dot"></div
+          ></label>
+          <label class="nav__item" for="slide4"
+            ><div class="nav__dot"></div
+          ></label>
+        </nav>
+      </div>
+    </div>
+  </body>
+</html>
